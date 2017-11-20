@@ -30,7 +30,7 @@ window.addEventListener('load', function() {
     }
     contentScroll = content.scrollHeight;
     content.setAttribute('rows', rows);*/
-    var el = this;
+    var el = content;
     setTimeout(function() {
       el.style.cssText = 'height:auto; padding:0';
       el.style.cssText = 'height:' + el.scrollHeight + 'px';
