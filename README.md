@@ -15,7 +15,7 @@
 #### Versión 0.0.2
 
 - No ingresar texto vacío (deshabilitar el botón de "twittear").
-Contar la cantidad de caracteres de forma regresiva.
+- Contar la cantidad de caracteres de forma regresiva.
 
 #### Versión 0.0.3
 - Si pasa los 140 caracteres, deshabilitar el botón.
