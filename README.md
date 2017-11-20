@@ -1,10 +1,10 @@
 # Reto de código - Twitter
 
-### Objetivo:
+### __Objetivo:__
 
 ![Objetivo](https://media.giphy.com/media/3ov9jP4RIGQCUQOScg/giphy.gif)
 
-### Flujo de versiones a desarrollar:
+### __Flujo de versiones a desarrollar:__
 
 #### Versión 0.0.1
 - Diseñar un formulario que permita ingresar un texto y un botón para "twittear".
@@ -32,4 +32,4 @@ Contar la cantidad de caracteres de forma regresiva.
 #### Versión 0.0.6 (Extra)
 - Agregar la hora en que se publicó el tweet. En el formato de 24 horas: hh:mm.
 
-### Autora: Laura Jimenez Hidalgo
+### __Autora: Laura Jimenez Hidalgo__
