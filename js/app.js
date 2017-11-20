@@ -3,7 +3,7 @@ window.addEventListener('load', function() {
   var count = document.getElementById('count');
   var content = document.getElementById('content');
   var contentScroll = content.scrollHeight;
-
+  
   content.addEventListener('keyup', activate);
   content.addEventListener('keyup', counter);
   content.addEventListener('input', resize);
