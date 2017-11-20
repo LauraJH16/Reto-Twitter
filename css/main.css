@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e6ecf0;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background: #8ccee5;
+    box-shadow: 2px 2px 10px #acb1b4;
+}
+
+header>div {
+    text-align: center;
+    color: #fff;
+    padding-top: 5px;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 23px;
+}
+
+.perfil {
+    background: #fff;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 28%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #acb1b4;
+}
+
+.perfil div {
+    padding: 20px;
+}
+
+.perfil div p:last-child {
+    color: skyblue;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.perfil div hr {
+    margin: 10px 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+#tweet {
+    background: #fff;
+    margin-top: 50px;
+    width: 28%;
+    margin-left: 150px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #acb1b4;
+}
+
+#tweet div {
+    padding: 20px;
+}
+
+#tweet textarea {
+    border-style: none;
+    resize: none;
+    outline: none;
+    width: 80%;
+}
+
+#twittear {
+    background-color: gray;
+    color: black;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px;
+    border-style: none;
+    outline: none;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+#count {
+    float: right;
+    margin: 15px 60px;
+    font-size: 20px;
+}
+
+#container-tweets {
+    margin-top: -383px;
+    float: right;
+    width: 80%;
+}
+
+.nuevosTweets {
+    background-color: white;
+    color: black;
+    width: 60%;
+    border-radius: 5px;
+    padding: 15px;
+    word-wrap: break-word;
+    margin: 10px auto;
+    margin-right: 80px;
+    text-align: justify;
+    font-size: 18px;
+    box-shadow: 2px 2px 10px #acb1b4;
+}
