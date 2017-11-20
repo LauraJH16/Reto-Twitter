@@ -22,14 +22,21 @@ window.addEventListener('load', function() {
   };
 
   function resize(event) {
-    var rows = parseInt(content.getAttribute('rows'));
+    /* var rows = parseInt(content.getAttribute('rows'));
     if (rows < 9999 && content.scrollHeight > contentScroll) {
       rows++;
     } else if (rows > 4 && content.scrollHeight < contentScroll) {
       rows--;
     }
     contentScroll = content.scrollHeight;
-    content.setAttribute('rows', rows);
+    content.setAttribute('rows', rows);*/
+    function resize(event) {
+      var el = this;
+      setTimeout(function() {
+        el.style.cssText = 'height:auto; padding:0';
+        el.style.cssText = 'height:' + el.scrollHeight + 'px';
+      }, 0);
+    };
   };
 
   function counter(event) {

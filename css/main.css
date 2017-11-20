@@ -58,6 +58,7 @@ h2 {
     margin-left: 150px;
     border-radius: 5px;
     box-shadow: 2px 2px 10px #acb1b4;
+    display: inline-block;
 }
 
 #tweet div {
@@ -69,6 +70,7 @@ h2 {
     resize: none;
     outline: none;
     width: 80%;
+    overflow: hidden;
 }
 
 #twittear {
